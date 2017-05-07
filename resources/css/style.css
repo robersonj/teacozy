@@ -4,6 +4,7 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
 }
 
 a {
@@ -14,13 +15,14 @@ header {
     display: flex;
     width: 100%;
     height: 69px;
-    background-color: black;
     border-bottom: 1px solid seashell;
     align-items: center; 
     position: fixed;
-    margin-right: -7px;
-    margin-left: -7px;
+    margin: -10px -7px 0 -8px;
+    z-index: 20;
 }
+
+
 
 nav {
     display: flex;
@@ -32,6 +34,8 @@ nav {
 
 .logo {
     flex: 1;
+    padding-top: 10px;
+    text-align: left;
 }
 
 .logo img {
@@ -39,4 +43,31 @@ nav {
     padding-left: 10px;
 }
 
+.mission {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/background.jpg");
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
 
+
+main {
+    padding-top: 60px;
+}
+
+
+.location {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+    background-image: url("../images/locations.jpg");
+}
+
+.tea-pic {
+    height: 200px;
+    width: 300px;
+}
