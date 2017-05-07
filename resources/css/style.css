@@ -67,7 +67,24 @@ main {
     background-image: url("../images/locations.jpg");
 }
 
-.tea-pic {
+.tea img {
     height: 200px;
     width: 300px;
+}
+
+.tea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-berry {
+    display: flex;
+    flex-direction: column;
+}
+
+.tea p {
+    margin-top: 10px;
+    
 }
