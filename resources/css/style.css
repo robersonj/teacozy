@@ -75,16 +75,37 @@ main {
 .tea {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 1000px;
     margin: 0 auto;
 }
 
-.tea-berry {
-    display: flex;
-    flex-direction: column;
-}
-
 .tea p {
     margin-top: 10px;
+    font-weight: bold;
     
+}
+
+
+.spiced {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.berry {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.donuts {
+    margin-right: 0px;
+    margin-left: 25px;
+}
+
+.myrtle {
+    margin-right: 25px;
+}
+
+.bizarre {
+    margin-left: 25px;
 }
