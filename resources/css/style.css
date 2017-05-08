@@ -11,6 +11,11 @@ a {
     margin-left: 20px;
 }
 
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -108,4 +113,14 @@ main {
 
 .bizarre {
     margin-left: 25px;
+}
+
+.middle {
+    margin-top: 89px;
+    margin-bottom: 55px;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: -10px;
 }
