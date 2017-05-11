@@ -64,10 +64,12 @@ main {
 
 
 .location {
-    display: block;
+    display: flex;
     margin: 0 auto;
     height: 500px;
     width: 1200px;
+    justify-content: center;
+    align-items: center;
     background-image: url("../images/locations.jpg");
 }
 
@@ -133,4 +135,32 @@ body {
 
 div {
     
+}
+
+.
+}
+
+
+
+.locflex {
+    display: flex;
+}
+
+.locbox {
+    width: 300px;
+    height: 300px;
+}
+
+.two {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
 }
