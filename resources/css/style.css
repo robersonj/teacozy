@@ -11,10 +11,30 @@ a {
     margin-left: 30px;
 }
 
+body {
+    margin: 0;
+}
+
 h2 {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+h4 {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+h5 {
+    font-size: .75em;
+}
+
+main {
+    padding-top: 60px;
+}
+
+
+/* === L0GO AND NAVIGATION STYLES === */
 
 header {
     display: flex;
@@ -25,8 +45,6 @@ header {
     position: fixed;
     z-index: 20;
 }
-
-
 
 nav {
     display: flex;
@@ -47,6 +65,8 @@ nav {
     padding-left: 10px;
 }
 
+
+/* === TEA COZY MISSION STYLES === */
 .mission {
     display: flex;
     height: 700px;
@@ -57,23 +77,40 @@ nav {
     justify-content: center;
 }
 
-
-main {
-    padding-top: 60px;
-}
-
-
-.location {
+#mission {
     display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/background.jpg");
+    margin: 0 auto;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    margin-top: 15px;
 }
 
-.tea img {
-    height: 200px;
-    width: 300px;
+.mission-header {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* === FEATURED TEAS STYLES === */
+
+.middle {
+    margin-top: 89px;
+    margin-bottom: 55px;
+}
+
+#featured {
+    margin-top: 89px;
+    margin-bottom: 55px;
 }
 
 .tea {
@@ -84,21 +121,25 @@ main {
     margin: 0 auto;
 }
 
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
 .tea p {
     margin-top: 10px;
     font-weight: bold;
     
 }
 
-
-.spiced {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
+/* Tea Images */
 .berry {
     margin-left: 0;
     margin-right: 25px;
+}
+
+.bizarre {
+    margin-left: 25px;
 }
 
 .donuts {
@@ -110,67 +151,12 @@ main {
     margin-right: 25px;
 }
 
-.bizarre {
+.spiced {
     margin-left: 25px;
+    margin-right: 25px;
 }
 
-.middle {
-    margin-top: 89px;
-    margin-bottom: 55px;
-}
-
-h4 {
-    font-weight: bold;
-    margin-top: -10px;
-}
-
-body {
-    margin: 0;
-}
-
-    
-}
-
-div {
-    
-}
-
-.
-}
-
-
-
-.locflex {
-    display: flex;
-}
-
-.locbox {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-    opacity: 1;
-}
-
-.two {
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.contact {
-    height: 200px;
-}
-
-.copyright {
-    text-align: left;
-    padding-left: 20px;
-    margin-top: 0;
-}
-
-.bold {
-    font-weight: bold;
-
-}
+/* === TEA COZY LOCATION STYLES === */
 
 .bottom {
     display: flex;
@@ -183,24 +169,64 @@ div {
     width: 1200px;
 }
 
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+#location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.locbox {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+}
+
+.locflex {
+    display: flex;
+}
+
 .locheader {
     background-color: transparent;
     margin-bottom: 0;
     margin-top: -100px;
 }
 
-h5 {
-    font-size: .75em;
+.two {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.mission-header {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    
-    
+/* === FOOTER: ADDRESS AND COPYRIGHT STYLES === */
+
+.contact {
+    height: 200px;
 }
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
 
 
