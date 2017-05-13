@@ -1,3 +1,5 @@
+/* === UNIVERSAL STYLES === */
+
 * {
     font-family: Helvetica;
     font-size: 22px;
@@ -5,10 +7,6 @@
     background-color: black;
     opacity: 0.9;
     text-align: center;
-}
-
-a {
-    margin-left: 30px;
 }
 
 body {
@@ -35,6 +33,11 @@ main {
 
 
 /* === L0GO AND NAVIGATION STYLES === */
+
+a {
+    margin-left: 25px;
+    margin-right: 5px;
+}
 
 header {
     display: flex;
@@ -104,6 +107,7 @@ nav {
 .tea img {
     height: 200px;
     width: 300px;
+    margin-bottom: 0;
 }
 
 .tea p {
@@ -168,7 +172,7 @@ nav {
 .locheader {
     background-color: transparent;
     margin-bottom: 0;
-    margin-top: -100px;
+    margin-top: -65px;
 }
 
 .two { /* Middle box for margin control */
@@ -176,13 +180,15 @@ nav {
     margin-right: 40px;
 }
 
-/* === FOOTER: ADDRESS AND COPYRIGHT STYLES === */
+/* === ADDRESS STYLES === */
 
 .contact {
     height: 200px;
     font-style: normal;
+    margin-top: -10px;
 }
 
+/* === FOOTER STYLES === */
 .copyright {
     text-align: left;
     padding-left: 20px;
