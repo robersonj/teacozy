@@ -67,17 +67,8 @@ nav {
 
 
 /* === TEA COZY MISSION STYLES === */
-.mission {
-    display: flex;
-    height: 700px;
-    width: 1200px;
-    background-image: url("../images/background.jpg");
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-}
 
-#mission {
+#mission { /* main section with background image */
     display: flex;
     height: 700px;
     width: 1200px;
@@ -95,20 +86,9 @@ nav {
     justify-content: center;
 }
 
-
-
-
-
-
-
 /* === FEATURED TEAS STYLES === */
 
-.middle {
-    margin-top: 89px;
-    margin-bottom: 55px;
-}
-
-#featured {
+#featured { /* featured tea main section */
     margin-top: 89px;
     margin-bottom: 55px;
 }
@@ -158,7 +138,7 @@ nav {
 
 /* === TEA COZY LOCATION STYLES === */
 
-.bottom {
+#location { /* Main section with background image */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +149,7 @@ nav {
     width: 1200px;
 }
 
-.location {
+.locations { /* section for location boxes */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,24 +157,12 @@ nav {
     margin-top: 15px;
 }
 
-#location {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    margin-top: 15px;
-}
-
-.locbox {
+.locbox { /* individual location boxes */
     display: flex;
     flex-direction: column;
     width: 300px;
     height: 300px;
     opacity: 1;
-}
-
-.locflex {
-    display: flex;
 }
 
 .locheader {
@@ -203,7 +171,7 @@ nav {
     margin-top: -100px;
 }
 
-.two {
+.two { /* Middle box for margin control */
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -219,14 +187,3 @@ nav {
     padding-left: 20px;
     margin-top: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
