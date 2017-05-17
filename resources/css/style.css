@@ -151,6 +151,9 @@ nav {
 
 /* === TEA COZY LOCATION STYLES === */
 
+address {
+    font-style: normal;
+}
 
 /* main section with background image */
 
