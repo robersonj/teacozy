@@ -125,7 +125,7 @@ nav {
 
 /* tea images */
 
-.berry {
+.berry, {
     margin-left: 0;
     margin-right: 25px;
 }
@@ -205,7 +205,7 @@ address {
 }
 
 
-/* === CONTENT AND COPYRIGHT STYLES === */
+/* === CONTACT SECTION STYLES === */
 
 .contact {
     height: 200px;
