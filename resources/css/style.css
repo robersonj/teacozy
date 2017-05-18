@@ -103,7 +103,7 @@ nav {
     margin-bottom: 55px;
 }
 
-.tea {
+.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -111,13 +111,13 @@ nav {
     margin: 0 auto;
 }
 
-.tea img {
+.gallery img {
     height: 200px;
     width: 300px;
     margin-bottom: 0;
 }
 
-.tea p {
+.gallery p {
     margin-top: 10px;
     font-weight: bold;
 }
